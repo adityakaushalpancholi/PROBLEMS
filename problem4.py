@@ -7,7 +7,7 @@ we can acceses the string by using the variable name and this print(x.[whichever
 
  a second concept is that we can directly covert the 
  i will do with a example using a map function to convert the string to 
- integer and then we can use it in our codee
+ integer and then we can use it in our code
 
  a, b = map(int, input("enter the no of terms: ").split())
  a, b = map(float, input().split())
