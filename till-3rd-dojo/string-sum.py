@@ -7,14 +7,18 @@ and then covert the sum into single digit
 
 x = int(input("enter a number "))
 sum = 0
-while sum < 10 :
-    v = x%10
-    sum +=int(v)
-    x = x//10
-    if sum < 10 :
-        print(sum)
+while x != 0:
+    v = x % 10
+    x = x // 10
+    sum += v
+    while sum > 9:
+        z = sum%10
+        sum = sum//10
+        sum += z
 
-    
+      
+
+print("Sum of digits:", sum)
 
 """
 x = int(input())
