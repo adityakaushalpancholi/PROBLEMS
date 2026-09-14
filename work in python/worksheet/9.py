@@ -10,3 +10,6 @@ second_largest .
 
 
 """
+z = 1
+while z == 1 :
+    print("a")

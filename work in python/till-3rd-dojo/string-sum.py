@@ -5,20 +5,20 @@ and then covert the sum into single digit
  
 # so there is this first code 
 
-x = int(input("enter a number "))
-sum = 0
-while x != 0:
-    v = x % 10
-    x = x // 10
-    sum += v
-    while sum > 9:
-        z = sum%10
-        sum = sum//10
-        sum += z
+# x = int(input("enter a number "))
+# sum = 0
+# while x != 0:
+#     v = x % 10
+#     x = x // 10
+#     sum += v
+#     while sum > 9:
+#         z = sum%10
+#         sum = sum//10
+#         sum += z
 
       
 
-print("Sum of digits:", sum)
+# print("Sum of digits:", sum)
 
 """
 x = int(input())
@@ -32,3 +32,13 @@ while x > 0:
         print(total_sum)
 """
 
+n = int(input())
+x = str(n)
+sum = 0 
+for char in x :
+    sum = int(char)+ sum 
+    if sum > 10 : 
+        for char in str(sum):
+            sum = int(sum) + sum 
+print(sum)
+    
