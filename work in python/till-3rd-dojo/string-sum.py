@@ -30,6 +30,7 @@ while x > 0:
     if x < 10 : 
         total_sum += x
         print(total_sum)
+        
 """
 
 n = int(input())

@@ -15,7 +15,8 @@ for row in result:
     x = list(reversed(row))
     a.append(x)
 print(a)
-    
+# so for rotating matrics anti clock wise we just need to reverse first then 
+# then inter change [i][j],[j][i] = [i][j],[j][i] it wil work eventually 
 
 
 
